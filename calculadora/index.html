@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Calculadora Basic</h1>
+            <div id="container">
+                <div id="resultado"><span></span></div>
+                <table>
+                    <tr>
+                        <td colspan="5" id="clearOne">&lt;</td>
+                     </tr>
+                    <tr>
+                       <td class="num">7</td>  
+                       <td class="num">8</td> 
+                       <td class="num">9</td>
+                       <td class="op">/</td> 
+                       <td id="clear">c</td>  
+                    </tr>
+                    <tr>
+                        <td class="num">4</td>
+                        <td class="num">5</td>
+                        <td class="num">6</td>
+                        <td class="op">*</td>
+                        <td rowspan="3" id="igual">=</td>
+                    </tr>
+                    <tr>
+                        <td class="num">1</td>
+                        <td class="num">2</td>
+                        <td class="num">3</td>
+                        <td class="op">-</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="num">0</td>
+                        <td id="virgula">,</td>
+                        <td class="op">+</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="menu">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div id="container-historico">
+                <h1>Historico</h1>
+                <ul style="display: none;">
+                </ul>
+            </div>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+    </main>
+    <footer>
+        <p>Desenvolvido por Everson Henrique 	&copy;</p>
+        <a href="https://pt.lovepik.com/images/png-hand-drawing.html" target="_blank">background</a> 
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="js/effect.js"></script>
+</body>
+</html>
